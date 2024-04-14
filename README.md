@@ -21,5 +21,6 @@ from the schematic phase.
 * Polarity on tantalum/electrolytic capacitor footprints
 * Make PDF of schematic that matches the files sent to the fab.
 * Double-check to make sure all files are committed to version control.
+* Make sure all dependent symbol/footprint libraries have been committed to version control.
 * 1% tolerance on critical voltage dividers
 * Place order for components needed to build board.
