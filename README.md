@@ -6,6 +6,7 @@ Supplemental symbols/footprints for KiCAD projects.
 PCB Checklist
 =============
 
+* Use 3.5mm mounting holes.
 * Keep digital and analog section separate.  Create via fence between sections.
 * Use low-pass filter across digital/analog boundary for power/low-speed I/Os.
 * Via fence around sensitive traces.
@@ -15,6 +16,7 @@ PCB Checklist
 * Remember pull-up resistors on I2C traces.
 * Don't forget keep-out areas under WIFI antennas, crystal oscillators, etc.
 * Update version/date on silkscreen.
+* Review component references to make sure none are blocked (ex: vias).
 * Run DRC on schematic and PCB before completion.
 * Review all schematic pages to make sure there are no warning notes or TODOs left
 from the schematic phase.
