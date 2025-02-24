@@ -6,9 +6,11 @@ Supplemental symbols/footprints for KiCAD projects.
 PCB Checklist
 =============
 
-* Use 3.5mm mounting holes.
+* Use 3.5mm mounting holes. Center of hole should be 4mm from edge of board.
 * Include test points on critical nets. Use 1.5mm x 1.5mm footprints.
 * Double-check capacitor type/ESR on voltage regulators (stability)
+* Double-check transformer pin mappings between schematic and footprint, these 
+can be tricky.  Make sure the windings are connected as expected.
 * Remember pull-up resistors on I2C traces.
 * Don't forget keep-out areas under WIFI antennas, crystal oscillators, etc.
 * Update version/date on schematic and PCB pages in KiCAD.
@@ -23,6 +25,7 @@ from the schematic phase.
 * Make sure all dependent symbol/footprint libraries have been committed to version control.
 * 1% tolerance on critical voltage dividers
 * Place order for components needed to build board.
+* SMA connectors (AMP 901-144)
 
 PCB Layout Rules for Performance
 ================================
