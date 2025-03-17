@@ -1,7 +1,7 @@
 (footprint "FT37-43 Bifilar"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 4 -3 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d2cce349-8534-4f2e-9992-dd6b77c98b4d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0d23d568-b86d-4e47-b597-cf5b4ecf7ef6")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "473c0861-d482-4395-b417-72b8f844fa7f")
 	)
@@ -122,4 +109,5 @@
 		(remove_unused_layers no)
 		(uuid "1413f725-ddd5-4214-88b2-ff0c5c12fd6d")
 	)
+	(embedded_fonts no)
 )
