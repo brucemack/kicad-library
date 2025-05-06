@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 6.35 5.08 0)
+		(at 7.62 5.08 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "71c5b7dc-cd54-4a84-9f7c-f0515d0d3378")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "RYLR689-LoRa-Module"
-		(at 6.41 -3.14 0)
+		(at 8 -3.14 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a2e25b96-79ff-45be-92d7-e98873c0edce")
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.27 -1.27)
-		(end 13.97 11.43)
+		(start 0 -1.27)
+		(end 15.24 11.43)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "da10f2e2-c30b-43ed-b14a-b394edf597eb")
 	)
 	(fp_line
-		(start 12.7 -1.27)
-		(end 12.7 11.43)
+		(start 15.24 -1.27)
+		(end 15.24 11.43)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -87,7 +87,7 @@
 	)
 	(fp_rect
 		(start -3 -2.17)
-		(end 15.88 12.25)
+		(end 18.13 12.25)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -97,7 +97,7 @@
 		(uuid "37562418-0085-4540-80de-a26abb855f96")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.86 -5.4 0)
+		(at 7.75 -5.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "34d5736c-c46f-45f1-b626-04ea4adf73a1")
@@ -106,6 +106,25 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(fp_text_box "Antenna pin (10) does not appear to be\ncastellated so a through-hole pad is provided\nto bond the antenna output to the PCB."
+		(start 9.5 18)
+		(end 36 24.5)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Cmts.User")
+		(uuid "91ac4007-e9ff-41da-a35e-7e3007a2a7bd")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
 		)
 	)
 	(dimension
@@ -149,49 +168,11 @@
 	(dimension
 		(type orthogonal)
 		(layer "F.SilkS")
-		(uuid "12f83dba-bb9c-43b3-bc08-223a61c96a9b")
+		(uuid "76d041fe-43c7-4d9b-9583-b903c70c2e96")
 		(pts
-			(xy 0 11.43) (xy 12.7 11.43)
+			(xy 0 11.43) (xy 15.24 11.43)
 		)
-		(height 3.62)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "(15.24-1.27-1.27)")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "12.7(15.24-1.27-1.27)"
-			(at 6.35 14.45 0)
-			(layer "F.SilkS")
-			(uuid "12f83dba-bb9c-43b3-bc08-223a61c96a9b")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.SilkS")
-		(uuid "743f6266-a081-4148-b351-cd6020bad4de")
-		(pts
-			(xy -1.27 -1.27) (xy 13.97 -1.27)
-		)
-		(height 19.25)
+		(height 3.82)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -211,9 +192,9 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "15.24"
-			(at 6.35 16.88 0)
+			(at 7.62 14.15 0)
 			(layer "F.SilkS")
-			(uuid "743f6266-a081-4148-b351-cd6020bad4de")
+			(uuid "76d041fe-43c7-4d9b-9583-b903c70c2e96")
 			(effects
 				(font
 					(size 1 1)
@@ -333,7 +314,7 @@
 		(uuid "edda275c-e029-43f9-851d-c525feae99fc")
 	)
 	(pad "10" thru_hole circle
-		(at 12.7 10.16)
+		(at 15.24 10.16)
 		(size 2.5 2.5)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -341,7 +322,7 @@
 		(uuid "edc827dc-6658-4393-b5f8-90c3cd03c363")
 	)
 	(pad "12" smd roundrect
-		(at 12.7 7.62)
+		(at 15.24 7.62)
 		(size 4 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
@@ -349,7 +330,7 @@
 		(uuid "4a50edb9-991c-476d-8f20-7d5ef1b560a5")
 	)
 	(pad "13" smd roundrect
-		(at 12.7 6.35)
+		(at 15.24 6.35)
 		(size 4 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
@@ -357,7 +338,7 @@
 		(uuid "044766bd-7221-40fd-a7de-7e50b11144e1")
 	)
 	(pad "14" smd roundrect
-		(at 12.7 5.08)
+		(at 15.24 5.08)
 		(size 4 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
@@ -365,7 +346,7 @@
 		(uuid "0beafd3f-eb9a-425d-9b6d-155260b69189")
 	)
 	(pad "15" smd roundrect
-		(at 12.7 3.81)
+		(at 15.24 3.81)
 		(size 4 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
@@ -373,7 +354,7 @@
 		(uuid "10442b40-2868-4f6a-88a6-fbae4ffd8a28")
 	)
 	(pad "16" smd roundrect
-		(at 12.7 2.54)
+		(at 15.24 2.54)
 		(size 4 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
@@ -381,7 +362,7 @@
 		(uuid "68b34787-e30e-4a53-9384-693fb4389cbd")
 	)
 	(pad "17" smd roundrect
-		(at 12.7 1.27)
+		(at 15.24 1.27)
 		(size 4 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
@@ -389,7 +370,7 @@
 		(uuid "8c010c08-57ff-4ead-aa9b-381e04c19021")
 	)
 	(pad "18" smd roundrect
-		(at 12.7 0)
+		(at 15.24 0)
 		(size 4 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
