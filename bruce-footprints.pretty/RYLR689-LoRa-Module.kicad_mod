@@ -100,6 +100,7 @@
 		(at 7.75 -5.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "34d5736c-c46f-45f1-b626-04ea4adf73a1")
 		(effects
 			(font
@@ -109,8 +110,8 @@
 		)
 	)
 	(fp_text_box "Antenna pin (10) does not appear to be\ncastellated so a through-hole pad is provided\nto bond the antenna output to the PCB."
-		(start 9.5 18)
-		(end 36 24.5)
+		(start 16.625 13.75)
+		(end 30.875 25.5)
 		(margins 1.0025 1.0025 1.0025 1.0025)
 		(layer "Cmts.User")
 		(uuid "91ac4007-e9ff-41da-a35e-7e3007a2a7bd")
@@ -129,7 +130,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "086a9d72-6750-4733-ad71-70f7b38db26b")
 		(pts
 			(xy -1.25 8.89) (xy -1.25 10.16)
@@ -155,7 +156,7 @@
 		)
 		(gr_text "1.27"
 			(at -7.84 9.525 90)
-			(layer "F.SilkS")
+			(layer "Dwgs.User")
 			(uuid "086a9d72-6750-4733-ad71-70f7b38db26b")
 			(effects
 				(font
@@ -167,7 +168,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "76d041fe-43c7-4d9b-9583-b903c70c2e96")
 		(pts
 			(xy 0 11.43) (xy 15.24 11.43)
@@ -193,7 +194,7 @@
 		)
 		(gr_text "15.24"
 			(at 7.62 14.15 0)
-			(layer "F.SilkS")
+			(layer "Dwgs.User")
 			(uuid "76d041fe-43c7-4d9b-9583-b903c70c2e96")
 			(effects
 				(font
@@ -205,7 +206,7 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "fba64268-77c0-4a4e-a78c-e6826fbc5913")
 		(pts
 			(xy -1.27 11.43) (xy -1.27 -1.27)
@@ -231,7 +232,7 @@
 		)
 		(gr_text "12.7"
 			(at -10.28 5.08 90)
-			(layer "F.SilkS")
+			(layer "Dwgs.User")
 			(uuid "fba64268-77c0-4a4e-a78c-e6826fbc5913")
 			(effects
 				(font
