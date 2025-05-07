@@ -109,25 +109,6 @@
 			)
 		)
 	)
-	(fp_text_box "Antenna pin (10) does not appear to be\ncastellated so a through-hole pad is provided\nto bond the antenna output to the PCB."
-		(start 16.625 13.75)
-		(end 30.875 25.5)
-		(margins 1.0025 1.0025 1.0025 1.0025)
-		(layer "Cmts.User")
-		(uuid "91ac4007-e9ff-41da-a35e-7e3007a2a7bd")
-		(effects
-			(font
-				(size 0.75 0.75)
-				(thickness 0.1)
-			)
-			(justify top)
-		)
-		(border yes)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-	)
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
@@ -313,14 +294,6 @@
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "edda275c-e029-43f9-851d-c525feae99fc")
-	)
-	(pad "10" thru_hole circle
-		(at 15.24 10.16)
-		(size 2.5 2.5)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "edc827dc-6658-4393-b5f8-90c3cd03c363")
 	)
 	(pad "12" smd roundrect
 		(at 15.24 7.62)
