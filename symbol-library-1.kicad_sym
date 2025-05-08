@@ -6225,7 +6225,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "ESDA14V2LY_1_1"
+			(pin input line
 				(at 0 0 0)
 				(length 7.62)
 				(name "1"
@@ -6243,7 +6245,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "2"
@@ -6261,7 +6263,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 20.32 -2.54 180)
 				(length 7.62)
 				(name "3"
