@@ -1,7 +1,7 @@
 (footprint "Power_5.5mm_CUI_PJ-102AH"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -4.01986 -6.77319 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7f44d1a3-57ed-43b4-847c-605eeb396909")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -129,7 +119,7 @@
 			(width 0.4)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "16180a92-61a0-4979-93f1-32d686b1a6e8")
 	)
@@ -320,15 +310,16 @@
 		(solder_mask_margin 0.102)
 		(uuid "2ccf8512-2ba4-4600-a079-5aec98790b4b")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/PJ-102AH.step"
+	(embedded_fonts no)
+	(model "C:/git/kicad-library/3d/PJ-102AH.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 7 0 5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

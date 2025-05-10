@@ -1,7 +1,7 @@
 (footprint "POT_3362P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "3362P-1-103LF ")
 	(property "Reference" "REF**"
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "766a59e6-ac4c-4d1a-82b4-63a8be04f1f6")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +122,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "843c4ea7-3800-4e46-8126-72eed1408991")
 	)
@@ -223,7 +213,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "e6a0e385-75d1-469f-8508-1a42706a39c8")
 	)
@@ -263,15 +253,16 @@
 		(remove_unused_layers no)
 		(uuid "654268b8-a90c-4a86-82ab-f4f18fb4fa69")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/3362P001XXX0A.stp"
+	(embedded_fonts no)
+	(model "C:/git/kicad-library/3d/3362P-1-503LF.step"
 		(offset
-			(xyz 2.5 0.5 4.75)
+			(xyz 2.5 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 90)
+			(xyz -90 -0 -0)
 		)
 	)
 )
