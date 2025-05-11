@@ -477,7 +477,7 @@
 		(uuid "69580312-529b-406a-bea3-891ba75d49d4")
 	)
 	(embedded_fonts no)
-	(model "C:/git/kicad-library/3d/L77SDB25SA4CH4F.step"
+	(model "${USER_3DMODEL_DIR}/L77SDB25SA4CH4F.step"
 		(offset
 			(xyz 0 -9 0)
 		)

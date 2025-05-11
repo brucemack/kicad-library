@@ -311,7 +311,7 @@
 		(uuid "2ccf8512-2ba4-4600-a079-5aec98790b4b")
 	)
 	(embedded_fonts no)
-	(model "C:/git/kicad-library/3d/PJ-102AH.step"
+	(model "${USER_3DMODEL_DIR}/PJ-102AH.step"
 		(offset
 			(xyz 7 0 5)
 		)

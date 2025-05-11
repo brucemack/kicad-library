@@ -254,7 +254,7 @@
 		(uuid "654268b8-a90c-4a86-82ab-f4f18fb4fa69")
 	)
 	(embedded_fonts no)
-	(model "C:/git/kicad-library/3d/3362P-1-503LF.step"
+	(model "${USER_3DMODEL_DIR}/3362P-1-503LF.step"
 		(offset
 			(xyz 2.5 0 0)
 		)
