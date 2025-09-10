@@ -11,7 +11,7 @@ PCB Quality Checklist
 * Double-check capacitor type/ESR on voltage regulators (stability)
 * Double-check transformer pin mappings between schematic and footprint, these 
 can be tricky.  Make sure the windings are connected as expected.
-* Remember pull-up resistors on I2C traces.
+* Remember pull-up resistors on I2C traces (not needed for Pico)
 * Pay attention to phasing marks on bifilar/trifilar RF transformers. Make
 sure that the footprint matches the schematic.
 * Don't forget keep-out areas under WIFI antennas, crystal oscillators, etc.
@@ -43,3 +43,37 @@ and other end connected to a ground via).
 * Use low-pass filter across digital/analog boundary for power/low-speed I/Os.
 * Via fence around sensitive traces.
 * Use wider traces (0.5mm) on power traces.
+* Flood signal layers with GND for added shielding.
+
+JLCPCB BOM File
+===============
+
+Create a property called "LCSC" and put the LCSC part number in for each component.
+
+Use the "Exclude from BOM" checkbox to designate parts that shouldn't be populated onto the board. NOTE: You also need to uncheck the "Show 'Exclude from BOM'" box in the BOM export dialog to remove these components from the finished BOM file.
+
+The standard KiCAD BOM file export feature can be used, however unnecessary columns should 
+be deleted and others need to be renamed. Required column names are:
+
+        Designator	Comment	JLCPCB Part#(optional)	Footprint
+
+JLCPCB CPL File
+===============
+
+In the PCB editor, go to File ... Fabrication Output ... .POS file.
+
+Select CSV, millimeters, exclude components with DNP
+
+The following changes are required:
+
+    Ref to Designator 
+    PosX to Mid X 
+    PosY to Mid Y 
+    Rot to Rotation 
+    Side to Layer
+
+So columns are:
+
+        Designator	Val	Package	Mid X	Mid Y	Rotation	Layer
+
+

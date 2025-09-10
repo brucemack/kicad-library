@@ -1,0 +1,164 @@
+(footprint "Potentiometer_Bourns_3386H_Horizontal_With_3D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Bourns 3386H, https://www.bourns.com/pdfs/3386.pdf")
+	(tags "Potentiometer horizontal Bourns 3386H")
+	(property "Reference" "REF**"
+		(at 0 -3.475 0)
+		(layer "F.SilkS")
+		(uuid "94335132-19e6-448b-994a-ad2878b074cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Bourns_3386H_Horizontal_With_3D"
+		(at 0 8.555 0)
+		(layer "F.Fab")
+		(uuid "5a05a725-aa0b-4fcb-aa1f-e9b0b2bd333d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb668da4-060d-4ef0-91e9-7a4dc9d903b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e51e619-57b4-4994-918f-714489615eb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.795 -2.335)
+		(end 1.255 -2.335)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e2ed1b5-9e31-48fa-82d8-ca9abf311703")
+	)
+	(fp_line
+		(start -3.795 7.415)
+		(end -3.795 -2.335)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "767fdc1c-aa17-4846-b354-f9958cf1a75a")
+	)
+	(fp_line
+		(start 1.255 -2.335)
+		(end 1.255 7.415)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12cab335-4155-463d-8691-832d65551143")
+	)
+	(fp_line
+		(start 1.255 7.415)
+		(end -3.795 7.415)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a21ecc3a-e74e-46fd-80e1-0abcbc6917f1")
+	)
+	(fp_rect
+		(start -3.94 -2.48)
+		(end 1.4 7.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7f356ec8-ee4c-4653-8738-94c0b1c176ef")
+	)
+	(fp_rect
+		(start -3.685 -2.225)
+		(end 1.145 7.305)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "969c2b1c-2e8e-4586-91c6-7639ff0dccaa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.27 2.54 0)
+		(layer "F.Fab")
+		(uuid "5587a288-b0dc-46f2-bcc5-c88d9d5a268a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec683c88-da3f-4802-9a20-dee83a9542da")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 2.54)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28353fbf-b837-4e28-a1b5-78c357080af5")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.44 1.44)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe915cf8-d6df-4d52-b8e7-d91c70225059")
+	)
+	(embedded_fonts no)
+	(model "${USER_3DMODEL_DIR}/3386H001XXX.stp"
+		(offset
+			(xyz -3.5 -7.5 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -90 -90)
+		)
+	)
+)
