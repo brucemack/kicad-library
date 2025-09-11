@@ -14,6 +14,7 @@ can be tricky.  Make sure the windings are connected as expected.
 * Remember pull-up resistors on I2C traces (not needed for Pico)
 * Pay attention to phasing marks on bifilar/trifilar RF transformers. Make
 sure that the footprint matches the schematic.
+* Pay attention to potentiometer turn direction. Ideally, CW means up.
 * Don't forget keep-out areas under WIFI antennas, crystal oscillators, etc.
 * Update version/date on schematic and PCB pages in KiCAD.
 * Update version/date on silkscreen.
@@ -28,6 +29,11 @@ from the schematic phase.
 * 1% tolerance on critical voltage dividers
 * Place order for components needed to build board.
 * SMA connectors (AMP 901-144)
+* When design has connectors that need to mate (i.e. pin headers and pin sockets)
+make sure there is no confusion about the orientation of the connectors.
+* Pay attention to component orientation in CPL/POS file. The default isn't always
+consistent with the orientation used by the pick-and-place machine (i.e. orientation
+in the tape).
 
 PCB Layout Rules for Performance
 ================================
