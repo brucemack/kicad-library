@@ -1423,7 +1423,7 @@
 		(uuid "dc8741d5-8cc8-4f96-892f-3db0a67f653d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/PiPico/PicoW.stp"
+	(model "${USER_3DMODEL_DIR}/PicoW.stp"
 		(offset
 			(xyz -10.5 -25.5 1)
 		)
@@ -1431,7 +1431,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

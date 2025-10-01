@@ -1,7 +1,7 @@
 (footprint "CONN_A-DF 09 A&slash_KG-T2S_ASM"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "A-DF 09 A/KG-T2S ")
 	(property "Reference" "REF**"
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3198bba1-cde1-48f5-8899-02d0a0dcb732")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -543,15 +533,16 @@
 		(remove_unused_layers no)
 		(uuid "348b9406-87be-452b-88a9-aaa389c7f55e")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_Dsub.3dshapes/A-DF_09_A_KG-T2S.step"
+	(embedded_fonts no)
+	(model "${USER_3DMODEL_DIR}/A-DF_09_A_KG-T2S.step"
 		(offset
-			(xyz 0 -9.5 0)
+			(xyz 0 -10 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 180 0)
+			(xyz -90 -0 -180)
 		)
 	)
 )

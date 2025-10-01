@@ -625,4 +625,15 @@
 		(uuid "789fd898-0db6-42df-a685-010cb1eb3d81")
 	)
 	(embedded_fonts no)
+	(model "${USER_3DMODEL_DIR}/sm-lp-5001.stp"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
