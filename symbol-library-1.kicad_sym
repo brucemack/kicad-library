@@ -14194,7 +14194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SMLP5001.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14204,6 +14204,15 @@
 			)
 		)
 		(property "Description" "Bourns Audio Transformer 1:1 Center Tap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7503474"
 			(at 0 0 0)
 			(effects
 				(font
